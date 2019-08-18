@@ -1,0 +1,39 @@
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .in-corner {
+      margin-left: 1%;
+      margin-top: 1%;
+  }
+
+  html { background-color: unset; }
+
+  body {
+    background-color: white;
+  }
+
+  .Absolute-Center {
+    display: flex; // make us of Flexbox
+    align-items: center; // does vertically center the desired content
+    justify-content: center; // horizontally centers single line items
+    text-align: center; // optional, but helps horizontally center text that breaks into multiple lines
+  }
+
+  .hero-body{
+    position: relative;
+    top: 150px;  
+    font-family: "Comic Sans MS";
+  }
+
+  input{
+    position: relative;
+    left: 5px;
+    font-family: "Comic Sans MS";
+    bottom: 5px;
+  }
+
+  .title{
+    font-family: "Comic Sans MS"
+  }
