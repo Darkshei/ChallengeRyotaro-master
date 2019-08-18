@@ -1,6 +1,6 @@
 module.exports = {
     github: {
-        username: "Ginkoe",
+        username: "Darkshei",
         password: ""
     }
 }
